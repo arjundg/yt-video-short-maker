@@ -9,7 +9,7 @@ interface ZoomImageProps {
 
 const ZoomImage: React.FC<ZoomImageProps> = ({src, zoomDirection, duration}) => {
   const frame = useCurrentFrame();
-  const zoomDuration = Math.min(duration * 30, 60); // Limit zoom duration to 2 seconds (60 frames)
+  const zoomDuration = Math.max(duration * 30, 60); // Limit zoom duration to 2 seconds (60 frames)
   const zoom = interpolate(
     frame,
     [0, zoomDuration],
