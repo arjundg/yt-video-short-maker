@@ -1,0 +1,13 @@
+{
+  "name": "yt-mahabharata-video-project",
+  "version": "1.0.0",
+  "description": "Dynamic video generator using Remotion",
+  "scripts": {
+    "start": "remotion studio",
+    "build": "remotion render src/index.ts Video out/video.mp4"
+  },
+  "dependencies": {
+    "@remotion/cli": "^3.3.101",
+    "remotion": "^3.3.101"
+  }
+}

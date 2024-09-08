@@ -1,0 +1,36 @@
+{
+  "title": "Story of Arjuna",  
+  "textStyle": {
+    "fontSize": "72px",
+    "fontWeight": "bold",
+    "color": "yellow",
+    "textShadow": "2px 2px 4px rgba(0,0,0,0.5)",
+		"audio": "/resources/a/a.mp3"
+  },
+  "sequence": [
+    {
+      "sequence": 1,
+      "image": "/resources/a/1.jpg",
+      "zoom": "out",
+      "text": "This is the story of Arjuna\nArjuna was a great warrior",
+			"audio": "/resources/a/1.mp3",
+      "duration": 6
+    },
+    {
+      "sequence": 2,
+      "image": "/resources/a/2.jpg",
+      "zoom": "in",
+      "text": "One day Arjuna had a dream\nIn the dream he was fighting in a war",
+			"audio": "/resources/a/2.mp3",
+      "duration": 5
+    },
+    {
+      "sequence": 3,
+      "image": "/resources/a/1.jpg",
+      "zoom": "in",
+      "text": "Arjuna was the son of Kunti",
+			"audio": "/resources/a/3.mp3",
+      "duration": 5
+    }
+  ]
+}
